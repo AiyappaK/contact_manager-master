@@ -1,0 +1,6 @@
+const {city,player,add} = require('./values')
+const ipAddress = require('./ip-config')
+console.log('city',city)
+console.log("player", player)
+console.log(add(10,20))
+console.log('ip',ipAddress)
